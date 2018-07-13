@@ -52,6 +52,7 @@ $(document).ready(function () {
 
         //Set the html of the #operator to the text of what was clicked
         $("#operator").text($(this).text());
+
     }).on("click", ".equal",function() {
         //If we already clicked equal, do not run calculation again
         if(isCalculated) {
@@ -85,7 +86,7 @@ $(document).ready(function () {
 
         $("#result").text(result);
 
-    }).on("click", function() {
+    }).on("click", ".clear", function() {
         //Call initializeCalculator to reset the state of app
         initializeCalculator();
     });
