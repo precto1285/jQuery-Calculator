@@ -86,8 +86,11 @@ $(document).ready(function () {
         $("#result").text(result);
 
     }).on("click", function() {
+        //Call initializeCalculator to reset the state of app
+        initializeCalculator();
+    });
 
-        
-    })
+    //Call intializeCalculator to set th state of app
+    initializeCalculator();
 
 });
