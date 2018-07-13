@@ -11,6 +11,8 @@
     <!-- Added a link to Bootstrap-->
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
         crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/style.css">
 
 </head>
 
@@ -27,7 +29,7 @@
         <div class="row">
 
             <!-- Calculator Panel -->
-            <div class="col-lg-4">
+            <div id="controller" class="col-lg-4">
                 <div class="card">
                     <h3 class="card-header">Do The Math</h3>
 
@@ -97,7 +99,7 @@
 
             <!-- Result Panel -->
             <div class="col=lg-6">
-                <div class="card">
+                <div id="resultPanel" class="card">
                     <h3 class="card-header">Result</h3>
                     <div class="card-body">
                         <h1 id="first-number"></h1>

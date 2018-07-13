@@ -81,7 +81,7 @@ $(document).ready(function () {
             result = firstNumber / secondNumber;
         }
         else if(operator === "power"){
-            result = furstNumber ^ secondNumber;
+            result = Math.pow(firstNumber, secondNumber);
         }
 
         $("#result").text(result);

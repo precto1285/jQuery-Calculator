@@ -1,0 +1,30 @@
+body{
+    background-color: rgb(31, 137, 224);
+    padding-left: auto;
+    padding-right: auto;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-stretch: extra-expanded;
+}
+
+.jumbotron{
+    background-image: url("../img/abacus.jpg");
+    background-size:16%;
+    color: white;
+    font-size: 30px;
+}
+.card{
+    background-image:url("../img/wood.jpg");
+    color: white;
+}
+hr{
+    color: white;
+}
+
+#controller {
+    text-align: center;
+}
+
+#resultPanel{
+    text-align: center;
+    width: 200px;
+}
