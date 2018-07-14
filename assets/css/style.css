@@ -43,3 +43,69 @@ footer{
     color:white;
     text-align: center;
 }
+
+@media (max-width: 320px) {
+    .jumbotron {
+        width: auto;
+    }
+    .container {
+        width:auto;
+    }
+}
+
+@media (max-width: 360px) {
+    .jumbotron {
+        width: auto;
+    }
+    .container {
+        width:auto;
+    }
+}
+
+@media (max-width: 375px) {
+    .jumbotron {
+        width: auto;
+    }
+    .container {
+        width:auto;
+    }
+}
+
+@media (max-width: 411px) {
+    .jumbotron {
+        width: auto;
+    }
+    .container {
+        width:auto;
+    }
+}
+
+@media (max-width: 414px) {
+    .jumbotron {
+        width: auto;
+    }
+    .container {
+        width:auto;
+    }
+}
+
+@media (max-width: 768px) {
+    .jumbotron {
+        width: auto;
+    }
+    .container {
+        width:auto;
+    }
+}
+
+@media (max-width: 1024px) {
+    .jumbotron {
+        width: auto;
+    }
+    .container {
+        width:auto;
+    }
+}
+
+
+
