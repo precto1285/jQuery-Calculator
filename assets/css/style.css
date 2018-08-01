@@ -2,11 +2,14 @@ body{
     background-color: rgb(31, 137, 224);
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-stretch: extra-expanded;
+    width:100%;
+    padding-bottom: 150px;
 }
 
 .jumbotron{
+    width:100%;
     background-image: url("../img/abacus.jpg");
-    background-size:16%;
+    background-size: 50%;
     color: white;
     font-size: 30px;
 }
@@ -19,19 +22,22 @@ hr{
 }
 
 #controller {
-    margin-left: 200px;
+    /* margin-left: 200px; */
     text-align: center;
     font-size: 28px;
 }
 
 #resultPanel{
+    height:400px;
     text-align: center;
-    width: 397px;
-    height: 397px;
     font-size: 50px;
 }
 
 footer{
+    position: fixed;
+    left:0;
+    right:0;
+    bottom:0;
     margin-top: 79px;
     margin-bottom:0px;
     background-image: url("../img/abacus.jpg");
@@ -44,64 +50,60 @@ footer{
     text-align: center;
 }
 
-@media (max-width: 320px) {
-    .jumbotron {
-        width: auto;
-    }
-    .container {
-        width:auto;
-    }
-}
+/* Media Query */
 
 @media (max-width: 360px) {
-    .jumbotron {
+    /* .jumbotron {
         width: auto;
-    }
+    } */
     .container {
         width:auto;
+    }
+    #resultPanel{
+        width:100%;
     }
 }
 
 @media (max-width: 375px) {
-    .jumbotron {
+    /* .jumbotron {
         width: auto;
-    }
+    } */
     .container {
         width:auto;
     }
 }
 
 @media (max-width: 411px) {
-    .jumbotron {
+    /* .jumbotron {
         width: auto;
-    }
+    } */
     .container {
         width:auto;
     }
 }
 
 @media (max-width: 414px) {
-    .jumbotron {
+    /* .jumbotron {
         width: auto;
-    }
+    } */
     .container {
         width:auto;
     }
 }
 
 @media (max-width: 768px) {
-    .jumbotron {
+    /* .jumbotron {
         width: auto;
-    }
+    } */
     .container {
         width:auto;
     }
 }
 
 @media (max-width: 1024px) {
-    .jumbotron {
+    /* .jumbotron {
         width: auto;
-    }
+    } */
     .container {
         width:auto;
     }
